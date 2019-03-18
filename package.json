@@ -18,5 +18,9 @@
   },
   "scripts": {
     "start": "webpack-dev-server --config ./webpack.config.js --mode development"
+  },
+  "dependencies": {
+    "react": "^16.8.4",
+    "react-dom": "^16.8.4"
   }
 }
