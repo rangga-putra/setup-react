@@ -1,0 +1,10 @@
+{
+  "name": "setup-react",
+  "version": "1.0.0",
+  "description": "learning to setup react app with webpack and babel",
+  "main": "index.js",
+  "repository": "https://github.com/rangga-putra/setup-react.git",
+  "author": "rangga-putra",
+  "license": "MIT",
+  "private": false
+}
