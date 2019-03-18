@@ -2,7 +2,7 @@ module.exports = {
   mode: 'development',
   entry: './src/index.js',
   output: {
-    path: path.resolve(__dirname, 'dist'),
+    path: __dirname + '/dist',
     filename: 'app.bundle.js'
   },
   devServer: {
@@ -11,7 +11,7 @@ module.exports = {
     contentBase: './'
   },
   module: {
-    rule: [{
+    rules: [{
       test: /\.(js|jsx)$/,
       exclude: /node_modules/,
       use: ['babel-loader']
